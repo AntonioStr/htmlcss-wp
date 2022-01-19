@@ -52,12 +52,17 @@
 /* Aside */
 
 .aside {
-    width: 24%;
+    width: 20%;
+}
+
+.col-left,
+.col-right {
+    width: calc((100% - 50% - 2rem) / 2);
 }
 
 .corpo-main{
     width: 50%;
-    margin-bottom: 10px;
+    margin: 0 1rem 0 1rem;
 }
 
 /* FINE MAIN */
