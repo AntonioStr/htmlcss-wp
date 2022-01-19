@@ -45,16 +45,23 @@ nav>ul>li>a {
     color: rgb(149, 149, 149);
 }
 
-
-
 #logo-ne {
     width: 13%;
     margin-bottom: 1rem;
 }
 
-
 .header-jumbotron {
+    padding: 300px 40% 100px 60px;
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.ab{
+    background-color: rgba(0, 0, 0, .25);
+    height: 100%;
+    width: 100%;
 }
 
 /* FINE HEADER */
@@ -103,7 +110,6 @@ nav>ul>li>a {
 
 .debug .header-jumbotron {
     background-color: #e1d67a;
-    height: 400px;
 }
 
 .debug.container-main {
