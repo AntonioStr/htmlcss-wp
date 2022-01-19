@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
 }
 
 .container-generale{
@@ -28,7 +29,25 @@
 /* INIZIO HEADER */
 
 .header-top {
-    padding-bottom: 30px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#logo-ne {
+    width: 13%;
+}
+
+nav>ul>li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    text-transform: uppercase;
+
+
 }
 
 .header-jumbotron {
@@ -77,7 +96,6 @@
 
 .debug .header-top {
     background-color: #e579e6;
-    height: 150px;
 }
 
 .debug .header-jumbotron {
