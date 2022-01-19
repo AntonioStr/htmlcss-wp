@@ -29,12 +29,8 @@
 /* INIZIO HEADER */
 
 .header-top {
-    height: 100px;
+    height: 112px;
     margin-bottom: 30px;
-}
-
-#logo-ne {
-    width: 13%;
 }
 
 nav>ul>li {
@@ -46,9 +42,16 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
     text-transform: uppercase;
-
-
+    color: rgb(149, 149, 149);
 }
+
+
+
+#logo-ne {
+    width: 13%;
+    margin-bottom: 1rem;
+}
+
 
 .header-jumbotron {
     margin-bottom: 30px;
@@ -94,9 +97,9 @@ nav>ul>li>a {
 
 /* #################### DEBUG #################### */
 
-.debug .header-top {
+/*.debug .header-top {
     background-color: #e579e6;
-}
+} */
 
 .debug .header-jumbotron {
     background-color: #e1d67a;
